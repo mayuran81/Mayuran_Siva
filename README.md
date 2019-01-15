@@ -37,7 +37,7 @@ mvn test
 
 check the test coverage of the project by navigating to
 
-Mayuran_Siva\target\site\jacoco
+Mayuran_Siva\ParentControl\target\site\jacoco
 
 open index file in the browser to view the code coverage
 
