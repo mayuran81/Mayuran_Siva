@@ -62,8 +62,7 @@ public enum Rating {
 			Rating requiredRating) throws IllegalArgumentException {
 								
 		return inputRating.getAgeRestrictionLevel() >= requiredRating.getAgeRestrictionLevel(); 
-									
-		
+											
 	}
 		
 	
@@ -73,6 +72,7 @@ public enum Rating {
 					  .filter(rating->rating.ratingName.equalsIgnoreCase(ratingString))
 					  .findFirst()
 					  .orElseThrow(() -> new TechnicalFailureException(Messages.INVALID_RATING + ratingString));
+		
 	}
 	
 	@Override
